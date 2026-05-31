@@ -4,3 +4,10 @@ matplotlib
 seaborn
 jupyter
 ipykernel
+pyarrow
+feast
+xgboost
+optuna
+mlflow
+imbalanced-learn
+ydata-profiling

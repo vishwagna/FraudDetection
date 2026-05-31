@@ -31,7 +31,14 @@ data/processed/*
 models/
 mlruns/
 artifacts/
+mlflow.db
 
 # Logs and reports
 *.log
 reports/
+
+# Feast databases and lock files
+data/*.db
+data/*.db*
+
+fraud_detection_implementation_plan.html
