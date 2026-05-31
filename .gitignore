@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+mlEnv/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Data files
+data/*.csv
+data/*.parquet
+data/raw/
+data/processed/*
+!data/.gitkeep
+!data/processed/.gitkeep
+
+# Model and experiment artifacts
+models/
+mlruns/
+artifacts/
+
+# Logs and reports
+*.log
+reports/
